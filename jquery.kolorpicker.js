@@ -74,7 +74,7 @@ $(document).ready(function() {
   function displayPicker(input) {
     var parent = $(input).parent();
 
-    if ($(parent).find('div').filter('#kolorPicker').size() == 0) {
+    if ($(parent).find('div').filter('#kolorPicker').length == 0) {
 
       $(input).css('z-index','100');
 
